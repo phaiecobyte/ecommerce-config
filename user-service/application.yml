@@ -6,9 +6,9 @@ spring:
     name: user-service
 
   datasource:
-    url: jdbc:postgresql://postgres:5433/userdb
-    username: user
-    password: password
+    url: jdbc:postgresql://postgres:5433/user_db
+    username: root
+    password: root
 
   jpa:
     hibernate:
