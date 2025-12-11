@@ -13,12 +13,4 @@ spring:
           default-label: main
           clone-on-start: true
           search-paths:
-            - api-gateway
-            - user-service
-            - product-service
-            - cart-service
-            - order-service
-            - payment-service
-            - review-service
-            - notification-service
-            - discovery-service
+            - "{application}"
